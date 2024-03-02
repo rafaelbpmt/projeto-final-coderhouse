@@ -1,0 +1,21 @@
+h1{
+   color: #fff;
+}
+
+.question{
+   color: #fff;
+}
+
+.answer{
+   color: #C5C5C5;
+}
+
+span{
+    color: #FFDC56;
+}
+
+#footer{
+    margin-top: 130px;
+    padding: 50px;
+    background: linear-gradient(180deg, #E5DF41 -22.64%, #DFA300 100%);
+  }

@@ -1,0 +1,23 @@
+body {
+  color: #fff;
+}
+
+.buy-text{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.buy-img{
+  width: 55%;
+}
+
+#button{
+  width: 5;
+}
+
+#footer{
+  color: black;
+  margin-top: 130px;
+  padding: 50px;
+  background: linear-gradient(180deg, #E5DF41 -22.64%, #DFA300 100%);
+}

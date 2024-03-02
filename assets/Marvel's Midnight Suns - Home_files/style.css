@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+header {
+  padding: 10px 0;
+  background-color: #101010;
+  width: 100%;
+}
+
+header img {
+  margin-left: 90px;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 18px;
+}
+
+header nav li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin: 0 13px;
+}
+
+header nav li a:hover {
+  color: #FFDC56;
+  transition: 0.4s;
+}
+
+header .container, section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 90px;
+}
+
+body {
+  font-family: "Monda", sans-serif;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #121212;
+}
+
+button {
+  font-family: "Monda", sans-serif;
+  cursor: pointer;
+}
+
+svg {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/main-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-container {
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  text-align: center;
+  /*   text-align: center; */
+}
+
+.hero-info h1 {
+  font-size: 3rem;
+}
+
+.hero-info a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #FFDC56;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  padding: 0.5rem 2em;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+#middle-info h2{
+  margin-left: 50px;
+  margin-top: 200px;
+  color: #fff;
+  font-size: 35px;
+  display: inline-block;
+  max-width: 100%
+}
+
+#middle-info p{
+  margin-left: 50px;
+  color: #c5c5c5;
+  font-size: 18px;
+}
+
+.middle-content{
+  display: flex;
+}
+
+.middle-img{
+text-align: right;
+}
+
+#gallery{
+margin-top: 200px;
+text-align: center;
+}
+
+.gallery-text{
+  color: white;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+#footer{
+  margin-top: 130px;
+  padding: 50px;
+  background: linear-gradient(180deg, #E5DF41 -22.64%, #DFA300 100%);
+}

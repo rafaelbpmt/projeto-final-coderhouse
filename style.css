@@ -6,6 +6,7 @@
   outline: 0;
 }
 
+
 header {
   padding: 10px 0;
   background-color: #101010;
@@ -35,6 +36,25 @@ header nav li a:hover {
   transition: 0.4s;
 }
 
+.buy-btn-menu{
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(180deg, #E5DF41 -22.64%, #DFA300 100%);
+  border: none;
+  border-radius: 2px;
+  padding: 3px 10px 3px 10px;
+}
+
+
+
+.buy-btn-menu:hover {
+  color: #fff;
+  transition: 1.0s;
+  background: linear-gradient(180deg, #cdc736 -22.64%, #daa000 100%);
+}
+
 header .container, section .container {
   display: flex;
   align-items: center;
@@ -55,4 +75,7 @@ body {
     margin-top: 130px;
     padding: 50px;
     background: linear-gradient(180deg, #E5DF41 -22.64%, #DFA300 100%);
+  }
+
+  @media only screen and (min-width: 768px){
   }

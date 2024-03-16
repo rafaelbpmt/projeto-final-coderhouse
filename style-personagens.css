@@ -1,3 +1,43 @@
 body{
     color: #fff;
 }
+
+.char-text{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1{
+    display: inline;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    position: relative;
+    border-bottom: 2px solid #E5DF41;
+    border-bottom-width: 5%;
+    
+}
+
+.char-content-1, .char-content-2, .char-content-3, .char-content-4, .char-content-5, .char-content-6{
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+@keyframes aparecer {
+    from {
+        opacity: 0; /* Inicia com opacidade 0 */
+    }
+    to {
+        opacity: 1; /* Termina com opacidade 1 */
+    }
+}
+
+h1, .faq-title, .char-content-1, .char-content-2, .char-content-3, .char-content-4, .char-content-5, .char-content-6 {
+    animation: aparecer 1.3s ease; /* Utiliza a animação 'aparecer' com duração de 0.5s e timing function 'ease' */
+}
+

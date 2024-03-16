@@ -16,6 +16,60 @@ span{
 
 #footer{
     margin-top: 130px;
-    padding: 50px;
+    padding: 50px;   
     background: linear-gradient(180deg, #E5DF41 -22.64%, #DFA300 100%);
   }
+
+.faq-img{
+   width: 100vw; 
+   height: auto; 
+   display: block; 
+}
+
+.faq-title{
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.text-con{
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+h1{
+   display: inline;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   text-align: center;
+   position: relative;
+   border-bottom: 2px solid #E5DF41;
+   border-bottom-width: 5%;
+}
+
+
+p{
+   margin-left: 80px;
+   max-width: 1500px;
+}
+
+@keyframes aparecer {
+   from {
+       opacity: 0; 
+   }
+   to {
+       opacity: 1; 
+   }
+}
+
+h1, .faq-img, p {
+   animation: aparecer 1.3s ease; 
+}
+
+.question{
+   font-size: 20px;
+}
+
+.answer{
+   margin-top: 10px;
+}

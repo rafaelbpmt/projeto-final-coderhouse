@@ -6,14 +6,19 @@
   outline: 0;
 }
 
+body{
+  height: 100vh;
+  background-color: #101010;
+}
 
-header {
+header nav {
   padding: 10px 0;
   background-color: #101010;
   width: 100%;
+
 }
 
-header img {
+hader img {
   margin-left: 90px;
 }
 
@@ -25,7 +30,7 @@ header nav li {
 header nav li a {
   color: #ecf0f1;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25em;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   margin: 0 13px;
@@ -37,7 +42,7 @@ header nav li a:hover {
 }
 
 .buy-btn-menu{
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 600;
   text-decoration: none;
   color: #fff;
@@ -59,7 +64,6 @@ header .container, section .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 90px;
 }
 
 body {
@@ -70,12 +74,72 @@ body {
   background-color: #121212;
 }
 
+  @media only screen and (max-width: 768px){
+    html{
+      font-size: 90%;
+    }
+  }
+
+  @media (max-width: 540px) {
+    nav{
+        display: none;
+    }
+}
+
+.mobile-menu-icon{
+  display: none;
+}
+
+.mobile-menu{
+  display: none;
+}
+
+.footer-icons{
+  display: inline-block;
+  align-items:flex-end;
+}
+
+.bg-primary-color{
+  background-color: #141414;
+}
+
+.primary-color{
+  color: #FFDC56;
+}
+
+.white-color{
+  color: #fff;
+}
+
+.nav-item a:hover{
+  color: #ffdc56; /* O ERRO DO BOTAO NO HOVER ESTA AQUI */
+  transition: 0.s;
+}
+
+#navbar a{
+  font-size: 1.2em;
+  padding: 10; /* O ERRO DO BOTAO QUE ESTAVA COM PADDING GRANDE ESTA AQUI */
+  margin-left: 15px;
+}
+
+
+.btn{
+color: #FFDC56;;
+border: 1px solid #FFDC56;
+font-weight: 500;
+box-sizing: border-box;
+padding: 8px;
+margin-left: 15pxpx;
+}
+
+.btn:hover{
+  background-color: #FFDC56;
+  color: white;
+  transition: 0.6s;
+}
 
 #footer{
     margin-top: 130px;
     padding: 50px;
     background: linear-gradient(180deg, #E5DF41 -22.64%, #DFA300 100%);
-  }
-
-  @media only screen and (min-width: 768px){
   }

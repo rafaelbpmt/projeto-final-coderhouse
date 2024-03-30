@@ -11,14 +11,14 @@ h1{
 }
 
 span{
-    color: #FFDC56;
+   color: #FFDC56;
 }
 
 #footer{
-    margin-top: 130px;
-    padding: 50px;   
-    background: linear-gradient(180deg, #E5DF41 -22.64%, #DFA300 100%);
-  }
+   margin-top: 130px;
+   adding: 50px;   
+   background: linear-gradient(180deg, #E5DF41 -22.64%, #DFA300 100%);
+}
 
 .faq-img{
    width: 100vw; 
@@ -55,10 +55,10 @@ p{
 
 @keyframes aparecer {
    from {
-       opacity: 0; 
+   opacity: 0; 
    }
    to {
-       opacity: 1; 
+   opacity: 1; 
    }
 }
 

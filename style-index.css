@@ -33,12 +33,14 @@ a {
 
 .hero-info h1 {
   font-size: 3em;
+  font-weight: bold;
   filter: drop-shadow(1px 1px 3px #373737);
+  margin-bottom: 0;
 }
 
 .hero-info h2{
   font-weight: lighter;
-  font-size: 1.5em;
+  font-size: clamp(1em, 1em + 1vw, 1.25em);
   margin-bottom: 20px;
   filter: drop-shadow(1px 1px 3px #373737);
 }
@@ -55,8 +57,8 @@ a {
 }
 
 .saiba-btn:hover{
-  background: linear-gradient(180deg, #E5DF41 -22.64%, #DFA300 100%);
-  background-color: #E5DF41;
+  transition: 0.4s;
+  background-color: #dfb330;
   color: white;
   border-color: transparent;
 }
@@ -91,18 +93,16 @@ a {
 }
 
 #middle-info h2{
-  margin-left: 80px;
   margin-top: 200px;
   color: #fff;
-  font-size: 2.1em;
+  font-size: clamp(2em, 1em + 1vw, 1.25em);
   max-width: 100%
 }
 
 #middle-info p{
   font-family: "Monda", sans-serif;
-  margin-left: 80px;
   color: #c5c5c5;
-  font-size: 1.1em;
+  font-size: clamp(1em, 1em + 1vw, 1.25em);
   width: 100%;
   max-width: 700px;
   margin-top: 20px;
@@ -126,7 +126,7 @@ a {
 }
 
 #gallery img{
-  width: 500px;
+  width: min(250px 50vw);
   margin: 2px;
 }
 
@@ -147,7 +147,7 @@ a {
 
 .gallery p{
   color: #C5C5C5;
-  font-size: 1.1em;
+  font-size: clamp(1em, 1em + 1vw, em);
   margin-top: 25px;
   margin-bottom: 12px;
 }

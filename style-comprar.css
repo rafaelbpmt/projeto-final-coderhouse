@@ -15,7 +15,7 @@ border: red solid 1px;
 
 h1{
   display: inline;
-  font-size: 30px;
+  font-size: clamp(1.70em, 1em + 3vw);
   margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
@@ -23,6 +23,7 @@ h1{
   border-bottom: 2px solid #E5DF41;
   border-bottom-width: 5%;
   }
+
 
 
 .buy-container{
@@ -38,17 +39,41 @@ h1{
 h2{
   display: inline;
   margin-top: 20px;
-  font-size: 25px;
+  font-size: clamp(1.70em, 1em + 3vw);
   border-bottom: 2px solid #E5DF41;
   border-bottom-width: 5%;
 }
 
 
 .buy-img{
-  width: 55%;
+  width: 900px;
   display: inline-block;
   margin-bottom: 20px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+  .buy-img{
+  width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .buy-img{
+  width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .buy-img{
+  width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .buy-img{
+  width: 50vw;
+  }
 }
 
 .plataform-container{
@@ -58,7 +83,17 @@ h2{
 
 .plataform-consoles{
   display: inline-block;
+}
 
+button{
+  border: none;
+  margin: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  button{
+  margin-top: 5px;
+  }
 }
 
 .plataform-container2{

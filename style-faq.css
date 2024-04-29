@@ -61,7 +61,7 @@ p{
    }
 }
 
-h1, .faq-img, p {
+h1, .faq-img, p, .faq-container {
    animation: aparecer 1.3s ease; 
 }
 

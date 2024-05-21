@@ -19,7 +19,7 @@
 - CSS3
 
 
-## Resultado final | Final result
+## 🏁 Resultado final | Final result
 
 🇧🇷 Você pode conferir o projeto [clicando aqui!](https://projetofinal-coderhouse-seven.vercel.app/)
 
